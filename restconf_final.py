@@ -135,6 +135,6 @@ def status():
             return "Interface loopback 65070055 is disabled"
     elif(resp.status_code == 404):
         print("STATUS NOT FOUND: {}".format(resp.status_code))
-        return "No Interface loopback 65070055swssxsxd"
+        return "No Interface loopback 65070055"
     else:
         print('Error. Status Code: {}'.format(resp.status_code))
